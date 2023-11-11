@@ -5,7 +5,7 @@ export function TitleBox() {
   return (
     <div className={classes.box}>
         <Title
-          title="Домашнее задание по React №6"
+          title="Домашнее задание по React №7"
         />
         <Title
           title="Султанов А"

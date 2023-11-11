@@ -37,5 +37,5 @@ Field.propTypes = {
   col_1: PropTypes.bool,
   col_2: PropTypes.bool,
   error: PropTypes.bool,
-  disabled: PropTypes.string,
+  disabled: PropTypes.bool,
 };
