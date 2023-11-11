@@ -7,8 +7,8 @@ export function Field({ label, fullWidth, value, onChange, type = 'text', col_1,
     <div
       className={cn(classes.field, {
         [classes.fullWidth]: fullWidth,
-        [classes.col_1]: col_1,
-        [classes.col_2]: col_2,
+        [classes.col_1]: col_1, //Позиция 1 в колонке грида. в ДЗ 8 передалал динамичекий номер через 'styled-components'
+        [classes.col_2]: col_2, //Позиция 2 в колонке грида. в ДЗ 8 передалал динамичекий номер через 'styled-components'
         [classes.error]: error,
       })}
     >

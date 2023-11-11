@@ -80,7 +80,7 @@ export function AtributeForm() {
           value={code}
           onChange={setCodeHandler}
           fullWidth
-          col_1          
+          col_1 //Позиция в колонке грида. в ДЗ 8 передалал через динамичекий номер через 'styled-components'         
         />
         <Field
           label="Представление"
