@@ -1,0 +1,52 @@
+.field {
+  width: 50%;
+  margin-bottom: 24px;
+  max-width: 400px;
+}
+
+.field:last-child {
+  margin-bottom: 0;
+}
+
+.field.fullWidth {
+  width: 100%;
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+  color: #868b95;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  background-color: transparent;
+  color: black;
+  outline: none;
+  border: 1px solid #E3E8EC;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.col_1 {
+  grid-column-start: 1;
+}
+
+.col_2 {
+  grid-column-start: 2;
+}
+
+.error {
+  color: red;
+}
+
+.input:disabled {
+  border: 1px solid #E3E8EC;
+  background: #E3E8EC;
+}
+
+.input:focus {
+  border: 2px solid #06509e;
+}
